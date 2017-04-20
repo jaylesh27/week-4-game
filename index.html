@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CrystalsCollector</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+<div class = "header">
+	<h1>Crystals Collector</h1>
+</div>
+
+<br>
+
+<div class = "container">
+
+	<div class = "directions-section">
+		<p>You will be given a random number at the start of the game.</p>
+		<br>
+		<p>There are four crystals.  By clicking on a crystal you will a specific amount of points to your total score.</p>
+		<br>
+		<p>You win the game by matching your total score to the random number, and you lose the game if your total score goes above the random number.</p>
+		<br>
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+		<br>
+		<p>Each time when the game starts, the game will change the values of each crystal.</p>
+		<br>
+	</div>
+	
+	<div class = "score-board">
+		<section id = "random-number-section">
+
+		</section>
+		<br>
+		<hr>
+		<section id = "wins-losses">
+			<p id = "wins">Wins: </p>
+			<p id = "losses">Losses: </p>
+		</section>
+
+		<section id = "totalscore-section">
+			<p>Your total score is:</p>
+			<p id = "total-score"></p>
+		</section>
+	</div>
+
+	<div class = "crystals-section">
+		<img id = "first-crystal" src="assets/images/Blue-sign-crystal.jpg" width="200" height="200">
+
+		<img id = "second-crystal" src="assets/images/Crushed_Basilisk_Crystals.jpg" width="200" height="200">
+
+		<img id = "third-crystal" src="assets/images/crystals-002.jpg" width="200" height="200">
+
+		<img id = "fourth-crystal" src="assets/images/purple-crystal.jpg" width="200" height="200">
+	</div>
+
+
+
+</div>
+
+<script
+	src="https://code.jquery.com/jquery-3.2.1.js"
+	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	crossorigin="anonymous">
+</script>
+
+<script type="text/javascript" src="assets/javascript/game.js">
+</script>
+
+
+</body>
+</html>
